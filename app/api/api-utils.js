@@ -45,6 +45,7 @@ export const getNormalizedGamesDataByCategory = async (url, category) => {
   } catch (error) {
     return error
   }
+  
 }
 
 export const authorize = async (url, data) => {
