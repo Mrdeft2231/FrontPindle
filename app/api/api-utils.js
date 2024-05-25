@@ -10,7 +10,7 @@ export const getData = async (url) => {
     return error
   }
 }
-
+// да
 export const isResponseOk = (response) => {
   return !(response instanceof Error)
 }
